@@ -51,5 +51,11 @@ int main() {
 	else if (winner == 2) {
 		std::cout << "Bob defeated you... lost all your money!\n";
 	}
+
+	std::cout << "Please enter any character to exit the program\n";
+	int x;
+	//there was an issue and I'm not sure how else to fix it
+	std::cin >> x;
+
 	return 0;
 }
