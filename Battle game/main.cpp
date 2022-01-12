@@ -11,9 +11,9 @@ int main() {
 	Player player;
 	Enemy Bob;
 
-	std::cout << "Enemy Bob appears! (100 health) Press enter to continue.\n";
+	std::cout << "Enemy Bob appears! (100 health, 7 damage) Press enter to continue.\n";
 
-	std::cin;
+	std::cin.get();
 
 	//game loop
 	while (run) {
